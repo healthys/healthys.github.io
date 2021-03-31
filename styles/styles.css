@@ -52,6 +52,7 @@ img{
     width: 100%;
 }
 .btn{
+    display: block;
     background: var(--color-pink);
     color: var(--color-white);
     text-align: center;
@@ -62,6 +63,7 @@ img{
     font-weight: 700;
     line-height: 28px;
     cursor: pointer;
+    font-family: SB Sans Display, sans-serif;
 }
 section{
     padding: 60px 0;
@@ -227,6 +229,9 @@ header .container{
     background: url("../pic/icon.svg") no-repeat 12px bottom var(--color-pink);
     background-size: 82px 89px;
     height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .form__block{
     display: flex;
